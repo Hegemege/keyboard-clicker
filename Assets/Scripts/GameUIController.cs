@@ -1,16 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Keiwando;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class GameUIController : MonoBehaviour {
+public class GameUIController : MonoBehaviour
+{
+    public Text HPText;
+    public Text DMGText;
+    public Text TypePrompt;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private BigInteger _value;
+
+    void Awake()
+    {
+
+    }
 }
